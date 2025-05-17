@@ -20,7 +20,6 @@ import subprocess
 ************************************************************************
 """
 
-
 # function to process ([Name](URL)) citations -> [^N]
 def process_markdown_link_citations(markdown_content):
     citation_pattern = r'\(\[([^\]]+)\]\((.*?)\)\)'
